@@ -1,0 +1,4 @@
+temp\*.doc
+bin\
+foo.*
+!foo.bar
