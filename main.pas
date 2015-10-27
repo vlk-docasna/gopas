@@ -43,7 +43,7 @@ begin
       keybd_event(shiftkeys[i].vkey, MapVirtualKey(shiftkeys[i].vkey, 0), 0, 0); 
   end; { For } 
   if specialkey then 
-    flag := 1 
+    flag := 2 
   else 
     flag := 0; 
   keybd_event(key, MapvirtualKey(key, 0), flag, 0); 
