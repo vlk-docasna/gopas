@@ -74,7 +74,7 @@ begin
   Edit1.SetFocus; 
   keybd_event(VK_SHIFT, 0, 0, 0); 
   keybd_event(Ord('A'), 0, 0, 0); 
-  keybd_event(VK_SHIFT, 0, KEYEVENTF_KEYUP, 0); 
+  keybd_event(VLK_SHIFT, 0, KEYEVENTF_KEYUP, 0); 
   {Presses the Left Window Key and starts the Run} 
   keybd_event(VK_LWIN, 0, 0, 0); 
   keybd_event(Ord('R'), 0, 0, 0); 
@@ -242,14 +242,4 @@ begin
   KeybdInput(VK_TAB, KEYEVENTF_KEYUP);   // Tab 
   KeybdInput(VK_MENU, KEYEVENTF_KEYUP); // Alt 
   SendInput(KeyInputCount, KeyInputs[0], SizeOf(KeyInputs[0])); 
-end; 
-
-DDDDDDDDDDDDDDDDDDDDDDDDD
-DDDDDDDDDDDDDDDDDDDDDDDDD
-DDDDDDDDDDDDDDDDDDDDDDDDD
-ha ha ha
-
-voole
-end.
-end.
-end. // vole
+end;  // vole
