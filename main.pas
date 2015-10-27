@@ -252,4 +252,4 @@ ha ha ha
 voole
 end.
 end.
-end. // asi ne
+end. // vole
