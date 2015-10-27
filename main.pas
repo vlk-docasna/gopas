@@ -3,7 +3,7 @@
 procedure PostKeyEx32(key: Word; const shift: TShiftState; specialkey: Boolean); 
 {************************************************************ 
 * Procedure PostKeyEx32 
-* 
+* blbej koment, kterej se zamerguje
 * Parameters: 
 *  key    : virtual keycode of the key to send. For printable 
 *           keys this is simply the ANSI code (Ord(character)). 
@@ -33,7 +33,7 @@ const
     (shift: Ord(ssShift); vkey: VK_SHIFT), 
     (shift: Ord(ssAlt); vkey: VK_MENU)); 
 var 
-  flag: DWORD; 
+  flag: integer //DWORD; 
   bShift: ByteSet absolute shift; 
   i: Integer; 
 begin 
