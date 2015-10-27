@@ -2,3 +2,4 @@ temp\*.doc
 bin\
 foo.*
 !foo.bar
+*.orig
